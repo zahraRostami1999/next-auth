@@ -33,13 +33,13 @@ if (!hasTrainings) {
   db.exec(`
     INSERT INTO trainings (title, image, description)
     VALUES
-    ('Yoga', '/yoga.jpg', 'A gentle way to improve flexibility and balance.'),
-    ('Boxing', '/boxing.jpg', 'A high-energy workout that improves strength and speed.'),
-    ('Running', '/running.jpg', 'A great way to improve cardiovascular health and endurance.'),
-    ('Weightlifting', '/weightlifting.jpg', 'A strength-building workout that helps tone muscles.'),
-    ('Cycling', '/cycling.jpg', 'A low-impact workout that improves cardiovascular health and endurance.'),
-    ('Gaming', '/gaming.jpg', 'A fun way to improve hand-eye coordination and reflexes.'),
-    ('Sailing', '/sailing.jpg', 'A relaxing way to enjoy the outdoors and improve balance.');
+    ('Yoga', '/trainings/yoga.jpg', 'A gentle way to improve flexibility and balance.'),
+    ('Boxing', '/trainings/boxing.jpg', 'A high-energy workout that improves strength and speed.'),
+    ('Running', '/trainings/running.jpg', 'A great way to improve cardiovascular health and endurance.'),
+    ('Weightlifting', '/trainings/weightlifting.jpg', 'A strength-building workout that helps tone muscles.'),
+    ('Cycling', '/trainings/cycling.jpg', 'A low-impact workout that improves cardiovascular health and endurance.'),
+    ('Gaming', '/trainings/gaming.jpg', 'A fun way to improve hand-eye coordination and reflexes.'),
+    ('Sailing', '/trainings/sailing.jpg', 'A relaxing way to enjoy the outdoors and improve balance.');
 `);
 }
 
