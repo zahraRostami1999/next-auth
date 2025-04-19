@@ -7,10 +7,13 @@ function Navigation() {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
+                    <Link href="/signup">Sign Up</Link>
+                </li>
+                <li>
                     <Link href="/login">Login</Link>
                 </li>
                 <li>
-                    <Link href="/signup">Sign Up</Link>
+                    <Link href="/training">Training</Link>
                 </li>
             </ul>
         </div>
